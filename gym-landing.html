@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Academia Elite</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 40px 20px 20px;
+}
+
+.hero h1 {
+    margin: 0 0 10px;
+    font-size: 42px;
+}
+
+.hero p {
+    margin: 0 0 15px;
+    color: #cbd5e1;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+/* BUTTON */
+.btn {
+    background: #22c55e;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #16a34a;
+    transform: scale(1.05);
+}
+
+/* SECTION */
+.section {
+    padding: 2px 20px 50px;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+.section img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #94a3b8;
+    font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Academia Elite</div>
+</header>
+
+<section class="hero">
+
+    <h1>Transforme seu corpo em 90 dias</h1>
+
+    <p>Treinos personalizados, acompanhamento profissional e estrutura completa para você evoluir rápido.</p>
+
+    <img src="gym2.jpg" alt="Academia">
+
+    <a class="btn" href="https://wa.me/5548998163063">Falar no WhatsApp</a>
+
+</section>
+
+<section class="section">
+
+    <h2>Por que treinar conosco?</h2>
+
+    <img src="gym1.jpg" alt="Equipamentos">
+
+    <div class="cards">
+        <div class="card">Treinadores profissionais</div>
+        <div class="card">Planos personalizados</div>
+        <div class="card">Resultados rápidos</div>
+    </div>
+
+</section>
+
+<footer>
+© 2026 Academia Elite - Todos os direitos reservados
+</footer>
+
+</body>
+</html>
